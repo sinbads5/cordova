@@ -28,21 +28,6 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-
-        var options = {
-            date: new Date(),
-            mode: 'date'
-        };
-        
-        function onSuccess(date) {
-            alert('Selected date: ' + date);
-        }
-        
-        function onError(error) { // Android only
-            alert('Error: ' + error);
-        }
-        
-        datePicker.show(options, onSuccess, onError);
     },
 
     // Update DOM on a Received Event

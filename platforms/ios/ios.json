@@ -4,40 +4,16 @@
     "uninstalled": []
   },
   "config_munge": {
-    "files": {
-      "config.xml": {
-        "parents": {
-          "/*": [
-            {
-              "xml": "<feature name=\"DatePicker\"><param name=\"ios-package\" value=\"DatePicker\" /></feature>",
-              "count": 1
-            }
-          ]
-        }
-      }
-    }
+    "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-datepicker": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-datetimepicker": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {},
-  "modules": [
-    {
-      "id": "cordova-plugin-datepicker.DatePicker",
-      "file": "plugins/cordova-plugin-datepicker/www/ios/DatePicker.js",
-      "pluginId": "cordova-plugin-datepicker",
-      "clobbers": [
-        "datePicker"
-      ]
-    }
-  ],
+  "modules": [],
   "plugin_metadata": {
-    "cordova-plugin-datepicker": "0.9.3",
-    "cordova-plugin-datetimepicker": "1.0.0"
+    "cordova-plugin-whitelist": "1.3.4"
   }
 }
