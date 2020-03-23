@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.example.hello"
-    },
     "cordova-plugin-datepicker": {
       "PACKAGE_NAME": "com.example.hello"
     },
